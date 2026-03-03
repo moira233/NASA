@@ -60,6 +60,12 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              {% comment %}Filter pages by language - only show pages matching current page language{% endcomment %}
+              {% assign current_lang = page.lang | default: 'en' %}
+              {% assign page_lang = p.lang | default: 'en' %}
+              {% if current_lang != page_lang %}
+                {% continue %}
+              {% endif %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -135,6 +141,26 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language Toggle -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              title="Switch Language"
+            >
+              <i class="fa-solid fa-language"></i>
+              <span id="current-lang">{{ site.lang_names[site.lang] | default: 'EN' }}</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
+              <a class="dropdown-item" href="#" onclick="switchLanguage('en'); return false;">English</a>
+              <a class="dropdown-item" href="#" onclick="switchLanguage('zh'); return false;">中文</a>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
