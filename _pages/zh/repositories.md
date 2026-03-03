@@ -1,9 +1,9 @@
 ---
 layout: page
 title: 代码仓库
-permalink: /zh/repositories/
+permalink: /repositories/
 description: 编辑 `_data/repositories.yml` 文件，修改 `github_users` 和 `github_repos` 列表以包含你自己的 GitHub 个人资料和仓库。
-nav: true
+nav: false
 nav_order: 6
 lang: zh
 ---

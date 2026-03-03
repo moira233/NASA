@@ -1,15 +1,15 @@
 ---
 layout: page
 title: under construction
-nav: true
+nav: false
 nav_order: 8
 lang: en
 dropdown: true
 children:
   - title: blog
-    permalink: /blog/
+    permalink: /en/blog/
   - title: publications
-    permalink: /publications/
+    permalink: /en/publications/
   - title: repositories
-    permalink: /repositories/
+    permalink: /en/repositories/
 ---

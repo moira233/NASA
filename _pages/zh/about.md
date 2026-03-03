@@ -1,10 +1,11 @@
 ---
 layout: about
 title: 关于
-permalink: /zh/
+permalink: /
 subtitle: <a href='#'>单位</a>. 地址. 联系方式. 座右铭等.
 lang: zh
-nav: false
+nav: true
+nav_order: 1
 
 profile:
   align: right

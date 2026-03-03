@@ -1,8 +1,8 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /en/cv/
 title: CV
-nav: true
+nav: false
 nav_order: 4
 lang: en
 cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here

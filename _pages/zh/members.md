@@ -1,11 +1,11 @@
 ---
-page_id: faculty
+page_id: members
 layout: profiles
-permalink: /zh/members/faculty/
-title: 🧑‍🏫教师
-description: NASA团队教师
-nav: false
-nav_order: 8
+permalink: /members/
+title: 🧑‍🏫成员
+description: NASA团队成员
+nav: true
+nav_order: 2
 lang: zh
 
 profiles:

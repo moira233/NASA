@@ -1,10 +1,11 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /en/
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 lang: en
-nav: false
+nav: true
+nav_order: 1
 
 profile:
   align: right

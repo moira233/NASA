@@ -1,9 +1,9 @@
 ---
 layout: page
 title: 项目
-permalink: /zh/projects/
+permalink: /projects/
 description: 我的项目集合
-nav: true
+nav: false
 nav_order: 2
 lang: zh
 display_categories: [work, fun]

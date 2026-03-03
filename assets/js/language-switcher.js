@@ -1,26 +1,26 @@
 // Language Switcher for al-folio
-// Handles switching between English and Chinese versions of pages
+// Handles switching between Chinese (default) and English versions of pages
 
 (function () {
   "use strict";
 
   // Language configuration
   const LANG_CONFIG = {
-    en: {
-      name: "English",
-      code: "en",
-      flag: "EN",
-    },
     zh: {
       name: "中文",
       code: "zh",
       flag: "中文",
     },
+    en: {
+      name: "English",
+      code: "en",
+      flag: "EN",
+    },
   };
 
-  // Get current language from localStorage or default to 'en'
+  // Get current language from localStorage or default to 'zh'
   function getCurrentLanguage() {
-    return localStorage.getItem("site-language") || "en";
+    return localStorage.getItem("site-language") || "zh";
   }
 
   // Set current language
@@ -58,13 +58,13 @@
 
     let newPath = currentPath;
 
-    // Pattern 1: zh to en - remove /zh/
-    if (currentLang === "zh" && targetLang === "en") {
-      newPath = currentPath.replace(/\/zh\//, "/").replace(/\/zh$/, "/");
-      console.log("ZH->EN: New path:", newPath);
+    // Pattern 1: en to zh - remove /en/
+    if (currentLang === "en" && targetLang === "zh") {
+      newPath = currentPath.replace(/\/en\//, "/").replace(/\/en$/, "/");
+      console.log("EN->ZH: New path:", newPath);
     }
-    // Pattern 2: en to zh - add /zh/
-    else if (currentLang === "en" && targetLang === "zh") {
+    // Pattern 2: zh to en - add /en/
+    else if (currentLang === "zh" && targetLang === "en") {
       // Remove trailing slash for comparison
       const pathNoSlash = currentPath.replace(/\/$/, "");
       const baseurlNoSlash = baseurl.replace(/\/$/, "");
@@ -74,21 +74,21 @@
 
       // Check if we're at the root (with or without baseurl)
       if (pathNoSlash === baseurlNoSlash || pathNoSlash === "") {
-        // Root page: /NASA-page/ -> /NASA-page/zh/
-        newPath = (baseurl || "") + "/zh/";
+        // Root page: /NASA/ -> /NASA/en/
+        newPath = (baseurl || "") + "/en/";
         console.log("Root page detected, new path:", newPath);
       } else if (baseurl && currentPath.startsWith(baseurl + "/")) {
-        // Sub page with baseurl: /NASA-page/blog/ -> /NASA-page/zh/blog/
+        // Sub page with baseurl: /NASA/blog/ -> /NASA/en/blog/
         const afterBaseurl = currentPath.substring(baseurl.length + 1);
-        newPath = baseurl + "/zh/" + afterBaseurl;
+        newPath = baseurl + "/en/" + afterBaseurl;
         console.log("Sub page with baseurl, new path:", newPath);
       } else if (!baseurl) {
-        // No baseurl: /blog/ -> /zh/blog/
-        newPath = "/zh" + currentPath;
+        // No baseurl: /blog/ -> /en/blog/
+        newPath = "/en" + currentPath;
         console.log("No baseurl, new path:", newPath);
       } else {
         // Fallback to root
-        newPath = (baseurl || "") + "/zh/";
+        newPath = (baseurl || "") + "/en/";
         console.log("Fallback to root, new path:", newPath);
       }
     }
@@ -133,11 +133,11 @@
   // Initialize language on page load
   function initLanguage() {
     const currentPath = window.location.pathname;
-    let detectedLang = "en";
+    let detectedLang = "zh";
 
     // Detect language from URL
-    if (currentPath.includes("/zh/") || currentPath.endsWith("/zh")) {
-      detectedLang = "zh";
+    if (currentPath.includes("/en/") || currentPath.endsWith("/en")) {
+      detectedLang = "en";
     }
 
     console.log("Init language - path:", currentPath, "detected:", detectedLang);

@@ -1,11 +1,11 @@
 ---
-page_id: faculty
+page_id: members
 layout: profiles
-permalink: /members/faculty/
-title: 🧑‍🏫Faculty
-description: Faculties of NASA
-nav: false
-nav_order: 8
+permalink: /en/members/
+title: 🧑‍🏫Members
+description: NASA Team Members
+nav: true
+nav_order: 2
 lang: en
 
 profiles:

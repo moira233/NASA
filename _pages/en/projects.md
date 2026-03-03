@@ -1,9 +1,9 @@
 ---
 layout: page
 title: projects
-permalink: /projects/
+permalink: /en/projects/
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav_order: 2
 lang: en
 display_categories: [work, fun]

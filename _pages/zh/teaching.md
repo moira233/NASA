@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /zh/teaching/
+permalink: /teaching/
 title: 教学
 description: 课程材料、时间表和教学资源。
-nav: true
+nav: false
 nav_order: 7
 lang: zh
 calendar: true
