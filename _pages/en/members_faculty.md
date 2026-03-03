@@ -6,6 +6,7 @@ title: 🧑‍🏫Faculty
 description: Faculties of NASA
 nav: false
 nav_order: 8
+lang: en
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

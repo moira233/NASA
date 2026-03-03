@@ -1,0 +1,1 @@
+I am a tenure-track Associate Professor at Nanjing University. I received my Ph.D. degree from Tsinghua University in 2023 (Advisor: Prof. Jiwu Shu), and Bachelor's degree from Huazhong University of Science and Technology in 2018. From 2023 to 2025, I worked as a Postdoctoral Researcher at Tsinghua University.

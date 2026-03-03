@@ -1,9 +1,10 @@
 ---
 layout: page
-title: news
-permalink: /news/
+title: 新闻
+permalink: /zh/news/
 nav: true
-nav_order: 3
+nav_order: 5
+lang: zh
 ---
 
 {% include news.liquid %}
