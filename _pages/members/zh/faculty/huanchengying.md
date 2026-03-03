@@ -1,0 +1,1 @@
+桓成英博士是南京大学计算机科学与技术系长聘轨助理教授。他曾两次获得ACM-ICPC亚洲区域赛亚军，并入围ACM-ICPC世界总决赛。他的研究重点是大数据计算系统、分布式AI训练和推理系统以及智能数据管理系统。他在顶级学术会议和期刊上发表了大量论文，包括SIGMOD、EuroSys、SC、ASPLOS、ICDE、IEEE Transactions on Parallel and Distributed Systems (TPDS)和ACM Transactions on Architecture and Code Optimization (TACO)等。他积极参与学术社区服务，担任ICDE、SC和TPDS等知名会议和期刊的程序委员会成员和审稿人。

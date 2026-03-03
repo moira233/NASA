@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/NASA/projects/";
           },
-        },{id: "nav-news",
-          title: "news",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/NASA/news/";
-          },
         },{id: "nav-博客",
           title: "博客",
           description: "",
@@ -79,6 +72,27 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/NASA/repositories/";
           },
+        },{id: "nav-新闻",
+          title: "新闻",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/NASA/zh/news/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/NASA/news/";
+          },
+        },{id: "nav-代码仓库",
+          title: "代码仓库",
+          description: "编辑 `_data/repositories.yml` 文件，修改 `github_users` 和 `github_repos` 列表以包含你自己的 GitHub 个人资料和仓库。",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/NASA/zh/repositories/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Course materials, schedules, and resources for classes taught.",
@@ -107,7 +121,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/NASA/members/alumni/";
               },
-            },{id: "dropdown-blog",
+            },{id: "nav-教学",
+          title: "教学",
+          description: "课程材料、时间表和教学资源。",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/NASA/zh/teaching/";
+          },
+        },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
@@ -127,6 +148,48 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/NASA/repositories/";
+              },
+            },{id: "dropdown-教师",
+              title: "教师",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/zh/members/faculty/";
+              },
+            },{id: "dropdown-学生",
+              title: "学生",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/zh/members/students/";
+              },
+            },{id: "dropdown-校友",
+              title: "校友",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/zh/members/alumni/";
+              },
+            },{id: "dropdown-博客",
+              title: "博客",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/blog/";
+              },
+            },{id: "dropdown-出版物",
+              title: "出版物",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/zh/publications/";
+              },
+            },{id: "dropdown-代码仓库",
+              title: "代码仓库",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/NASA/zh/repositories/";
               },
             },{id: "post-a-post-with-plotly-js",
         
