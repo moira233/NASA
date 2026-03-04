@@ -63,7 +63,7 @@ latest_posts:
 
 <div id="lab-intro" class="section-anchor"></div>
 
-<h2 class="section-title">🌍 团队介绍</h2>
+<h2 class="section-title" style="display: none;">🌍 团队介绍</h2>
 
 #### 团队擅长的研究领域与方向
 

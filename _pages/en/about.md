@@ -63,7 +63,7 @@ latest_posts:
 
 <div id="lab-intro" class="section-anchor"></div>
 
-<h2 class="section-title">🌍 Lab Introduction</h2>
+<h2 class="section-title" style="display: none;">🌍 Lab Introduction</h2>
 
 #### Research Areas and Directions
 
