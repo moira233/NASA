@@ -48,7 +48,7 @@ latest_posts:
   scroll-margin-top: 80px;
 }
 .section-title {
-  color: #4E0099;
+  color: #b509ac;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1.5rem;

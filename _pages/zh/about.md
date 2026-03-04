@@ -48,7 +48,7 @@ latest_posts:
   scroll-margin-top: 80px;
 }
 .section-title {
-  color: #4E0099;
+  color: #b509ac;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -88,7 +88,6 @@ latest_posts:
 - **可编程设备：** P4RTC 被 **NSDI 2025** 录用，基于国产（华为）可编程路由器构建可编程网络生态，强力挑战美国 Tofino 平台曾经的垄断地位。
 - **大模型系统优化：** Hermes 系统和组件化 Roofline 模型发表在 **ATC 2025** 和 **ASPLOS 2025**。该工作面向昇腾芯片，首次实现了对性能瓶颈的高精度诊断与优化，为释放国产 AI 算力提供了关键支撑。细粒度能耗优化工作发表在 **ASPLOS 2025**，实现了毫秒级能耗优化，达成 15.27% 的 AICore 能耗下降，助力低碳绿色计算。
 - **图计算：** 子图匹配和社区检测算法发表在 **SIGMOD 2023、ATC 2023、PPoPP 2025**，成功应用于国产图数据库 GraphScope。时序图检测算法发表于 **ICDE 2022** 以及 **EuroSys 2023 / 2025**，应用于国产图数据库 TuGraph，全面助力图计算技术在国产平台的落地转化。
-
 
 <div id="team-members" class="section-anchor"></div>
 
