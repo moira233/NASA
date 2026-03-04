@@ -59,6 +59,12 @@ latest_posts:
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
+@media (min-width: 992px) {
+  .col-lg-5ths {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
 </style>
 
 <div id="lab-intro" class="section-anchor"></div>
@@ -99,7 +105,7 @@ latest_posts:
 
 <div class="row text-center mb-1 justify-content-center">
 {% for member in site.data.team.leaders %}
-  <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-5ths mb-4">
     {% if member.url %}
     <a href="{{ member.url | relative_url }}" style="color: inherit; text-decoration: none;">
     {% endif %}
@@ -119,7 +125,7 @@ latest_posts:
 
 <div class="row text-center mb-1 justify-content-center">
 {% for member in site.data.team.core %}
-  <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-5ths mb-4">
     {% if member.url %}
     <a href="{{ member.url | relative_url }}" style="color: inherit; text-decoration: none;">
     {% endif %}
@@ -139,7 +145,7 @@ latest_posts:
 
 <div class="row text-center mb-1">
 {% for member in site.data.team.youth %}
-  <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-5ths mb-4">
     {% if member.url %}
     <a href="{{ member.url | relative_url }}" style="color: inherit; text-decoration: none;">
     {% endif %}

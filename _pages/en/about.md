@@ -59,6 +59,12 @@ latest_posts:
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
+@media (min-width: 992px) {
+  .col-lg-5ths {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
 </style>
 
 <div id="lab-intro" class="section-anchor"></div>
@@ -89,7 +95,6 @@ latest_posts:
 - **Large Model System Optimization:** Hermes system and componentized Roofline model were published in **ATC 2025** and **ASPLOS 2025**. This work targets Ascend chips, achieving high-precision performance bottleneck diagnosis and optimization for the first time, providing critical support for unleashing domestic AI computing power. Fine-grained energy optimization work published in **ASPLOS 2025** achieved millisecond-level energy optimization with 15.27% AICore energy reduction, supporting low-carbon green computing.
 - **Graph Computing:** Subgraph matching and community detection algorithms were published in **SIGMOD 2023, ATC 2023, PPoPP 2025**, successfully applied to the domestic graph database GraphScope. Temporal graph detection algorithms were published in **ICDE 2022** and **EuroSys 2023 / 2025**, applied to the domestic graph database TuGraph, comprehensively supporting graph computing technology deployment on domestic platforms.
 
-
 <div id="team-members" class="section-anchor"></div>
 
 <h2 class="section-title">🎓 Team Members</h2>
@@ -100,7 +105,7 @@ latest_posts:
 
 <div class="row text-center mb-1 justify-content-center">
 {% for member in site.data.team_en.leaders %}
-  <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-5ths mb-4">
     {% if member.url %}
     <a href="{{ member.url | relative_url }}" style="color: inherit; text-decoration: none;">
     {% endif %}
@@ -120,7 +125,7 @@ latest_posts:
 
 <div class="row text-center mb-1 justify-content-center">
 {% for member in site.data.team_en.core %}
-  <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-5ths mb-4">
     {% if member.url %}
     <a href="{{ member.url | relative_url }}" style="color: inherit; text-decoration: none;">
     {% endif %}
@@ -140,7 +145,7 @@ latest_posts:
 
 <div class="row text-center mb-1">
 {% for member in site.data.team_en.youth %}
-  <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-5ths mb-4">
     {% if member.url %}
     <a href="{{ member.url | relative_url }}" style="color: inherit; text-decoration: none;">
     {% endif %}
