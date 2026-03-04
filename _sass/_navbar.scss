@@ -56,7 +56,11 @@
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: #6c3483; /* Purple color for the brand title */
+    
+    .font-weight-bold {
+      color: #6c3483; /* Ensure the bold text is also purple */
+    }
   }
 
   .navbar-nav .nav-item .nav-link {

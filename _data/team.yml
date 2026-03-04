@@ -1,0 +1,53 @@
+leaders:
+  - name: 田臣
+    role: 教授、杰青
+    image: members/faculty/tc.jpg
+    url: https://cs.nju.edu.cn/tianchen/
+
+core:
+  - name: 顾荣
+    role: 准聘副教授，阿里青橙奖、教育部青年长江学者
+    image: members/faculty/gurong.jpg
+    url: https://cs.nju.edu.cn/gurong
+  - name: 汪庆
+    role: 准聘副教授
+    image: members/faculty/wq.jpg
+    url: https://wangqing.io
+  - name: 王晓亮
+    role: 教授
+    image: members/faculty/wangxiaoliang.jpg
+    url: https://cs.nju.edu.cn/wangxiaoliang
+  - name: 赵阳明
+    role: 准聘副教授，中科院百人计划B类
+    image: members/faculty/zhaoyangming.jpg
+    url: https://nju-zhaoym.github.io/home/
+  - name: 郑嘉琦
+    role: 准聘副教授，优青
+    image: members/faculty/zhengjiaqi.jpg
+    url: https://jzheng369.github.io
+
+youth:
+  - name: 宦成颖
+    role: 准聘助理教授
+    image: members/faculty/hcy.jpg
+    url: https://huanchengying.github.io
+  - name: 孟晴开
+    role: 准聘助理教授
+    image: members/faculty/mqk.jpg
+    url: https://mengqingkai.github.io/
+  - name: 谢旻晖
+    role: 准聘助理教授
+    image: members/faculty/xmh.jpg
+    url: https://minhui-xie.github.io
+  - name: 黄程远
+    role: 助理研究员
+    image: members/faculty/huangcy.jpg
+    url: https://ryanhuang1014.github.io/
+  - name: 曹培睿
+    role: 助理研究员
+    image: members/faculty/cpr.jpg
+    url: https://caopeirui.github.io/
+  - name: 王智彬
+    role: 助理研究员
+    image: members/faculty/wzb.jpg
+    url: https://wzbxpy.github.io/

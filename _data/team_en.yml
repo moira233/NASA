@@ -1,0 +1,53 @@
+leaders:
+  - name: Tian Chen
+    role: Professor, NSFC Distinguished Young Scholar
+    image: members/faculty/tc.jpg
+    url: https://cs.nju.edu.cn/tianchen/
+
+core:
+  - name: Gu Rong
+    role: Associate Professor, Alibaba DAMO Young Fellow, MOE Young Yangtze River Scholar
+    image: members/faculty/gurong.jpg
+    url: https://cs.nju.edu.cn/gurong
+  - name: Wang Qing
+    role: Associate Professor
+    image: members/faculty/wq.jpg
+    url: https://wangqing.io
+  - name: Wang Xiaoliang
+    role: Professor
+    image: members/faculty/wangxiaoliang.jpg
+    url: https://cs.nju.edu.cn/wangxiaoliang
+  - name: Zhao Yangming
+    role: Associate Professor, CAS Hundred Talents Program (Type B)
+    image: members/faculty/zhaoyangming.jpg
+    url: https://nju-zhaoym.github.io/home/
+  - name: Zheng Jiaqi
+    role: Associate Professor, NSFC Excellent Young Scholar
+    image: members/faculty/zhengjiaqi.jpg
+    url: https://jzheng369.github.io
+
+youth:
+  - name: Huan Chengying
+    role: Assistant Professor
+    image: members/faculty/hcy.jpg
+    url: https://huanchengying.github.io
+  - name: Meng Qingkai
+    role: Assistant Professor
+    image: members/faculty/mqk.jpg
+    url: https://mengqingkai.github.io/
+  - name: Xie Minhui
+    role: Assistant Professor
+    image: members/faculty/xmh.jpg
+    url: https://minhui-xie.github.io
+  - name: Huang Chengyuan
+    role: Assistant Researcher
+    image: members/faculty/huangcy.jpg
+    url: https://ryanhuang1014.github.io/
+  - name: Cao Peirui
+    role: Assistant Researcher
+    image: members/faculty/cpr.jpg
+    url: https://caopeirui.github.io/
+  - name: Wang Zhibin
+    role: Assistant Researcher
+    image: members/faculty/wzb.jpg
+    url: https://wzbxpy.github.io/

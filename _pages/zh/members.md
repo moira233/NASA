@@ -4,7 +4,7 @@ layout: profiles
 permalink: /members/
 title: 🧑‍🏫成员
 description: NASA团队成员
-nav: true
+nav: false
 nav_order: 2
 lang: zh
 
